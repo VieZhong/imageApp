@@ -1,0 +1,26 @@
+{
+  "name": "image-app",
+  "version": "1.0.0",
+  "description": "一款基于react的图片处理应用",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VieZhong/imageApp.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Immutable",
+    "canvas",
+    "webpack"
+  ],
+  "author": "VieZhong/BeckyWang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VieZhong/imageApp/issues"
+  },
+  "homepage": "https://github.com/VieZhong/imageApp"
+}
