@@ -14,10 +14,12 @@ module.exports = {
             test: /\.jsx?$/,
             include: [path.resolve(__dirname, "src")],
             enforce: "post",
-            loader: "babel-loader",
-            options: {
-                presets: ["es2015"]
-            }
+            use: [{
+                loader: "babel-loader",
+                options: {
+                    presets: ["react", "es2015"]
+                }
+            }]
         }, {
             test: /\.scss$/,
             use: ["style-loader", "css-loader", "sass-loader"]
