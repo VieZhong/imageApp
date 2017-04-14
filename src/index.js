@@ -1,14 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import App from './containers'
+
+import history from './history'
 import store from './store';
 
-var root = document.createElement('root');
+import AppRouter from './routers';
+
+let root = document.createElement('root');
 
 render(
   <Provider store={store}>
-    <App />
+    <AppRouter history={history}/>
   </Provider>
     , root
 );

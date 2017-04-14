@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 class App extends React.Component {
     constructor() {
         super();
-        this.state = {};
     }
 
     render() {
