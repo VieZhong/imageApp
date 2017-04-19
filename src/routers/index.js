@@ -1,14 +1,14 @@
 import React from 'react';
-import { Route } from 'react-router';
+import { Route } from 'react-router-dom';
 import { ConnectedRouter } from 'react-router-redux';
 
-import Frame from '../layouts';
+import Layout from '../layouts';
 
 export default function(props) {
     return (
         <ConnectedRouter history={props.history}>
             <div>
-                <Route path="/" component={Frame} />
+                <Route path="/" component={Layout} />
             </div>
         </ConnectedRouter>
     );

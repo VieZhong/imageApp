@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux-immutable';
 import { routerReducer } from 'react-router-redux';
 
+import orginImgData from './orginImgData';
+import newImgData from './newImgData';
+
 const rootReducer = combineReducers({
-    reducer: (state, action) => {
-        return 'state';
-    },
+    orginImgData,
+    newImgData,
     router: routerReducer
 });
 

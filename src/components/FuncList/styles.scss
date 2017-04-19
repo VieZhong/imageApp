@@ -1,0 +1,47 @@
+$white-color: #FFF5E8;
+$lightest-color: #FFE9CC;
+$lighter-color: #FFDAAA;
+$light-color: #D4A66A;
+$base-color: #AA7939;
+$dark-color: #805115;
+$darker-color: #553000;
+
+.item{
+    border: 1px solid $lighter-color;
+    border-top: 0;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+}
+
+.nav{
+    list-style: none;
+
+    li{
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .nav-header{
+        background: $base-color;
+        color: $lighter-color;
+        border-bottom: 1px solid $lighter-color;
+    }
+}
+
+.nav-item{
+    composes: item;
+    color: $lightest-color;
+    background: $light-color;
+}
+
+.nav-item-active{
+    composes: item;
+    color: $darker-color;
+    background: $lighter-color;
+}

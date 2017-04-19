@@ -1,0 +1,29 @@
+$white-color: #FFF5E8;
+$lightest-color: #FFE9CC;
+$lighter-color: #FFDAAA;
+$light-color: #D4A66A;
+$base-color: #AA7939;
+$dark-color: #805115;
+$darker-color: #553000;
+
+.effect-list {
+    padding-left: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+
+    li {
+        width: 100px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        color: $dark-color;
+        border: 1px solid $base-color;
+        border-radius: 6px;
+        background-color: $light-color;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+}

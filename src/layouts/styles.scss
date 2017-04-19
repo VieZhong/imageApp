@@ -1,0 +1,35 @@
+$white-color: #FFF5E8;
+$lighter-color: #FFDAAA;
+$light-color: #D4A66A;
+$base-color: #AA7939;
+$dark-color: #805115;
+$darker-color: #553000;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 870px;
+
+    .function-nav {
+        width: 200px;
+        min-width: 200px;
+        background: $light-color;
+    }
+
+    .image-container {
+        flex: 1;
+        background: $white-color;
+        min-width: 500px;
+    }
+}
+
+.feature-container{
+    height: 120px;
+    border-top: $light-color 1px solid;
+    background: $lighter-color;
+    min-width: 700px;
+}
