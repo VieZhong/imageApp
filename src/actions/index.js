@@ -10,19 +10,12 @@ function saveOriginImgData(data) {
 
 function handleEffect(effect) {
     return (dispatch, getState) => {
-        switch(effect) {
-            case 'GRAY': 
-                let orginImgData = getState().get('orginImgData');
-                let wk = new Worker(handleEffectWorkerUrl);
-                wk.postMessage({imgData: orginImgData, effect});
-                wk.onmessage = function(e){
-                    dispatch(updateImgData(e.data));
-                }
-                break;
-            default: 
-                break;
+        let orginImgData = getState().get('orginImgData');
+        let wk = new Worker(handleEffectWorkerUrl);
+        wk.postMessage({imgData: orginImgData, effect});
+        wk.onmessage = function(e){
+            dispatch(updateImgData(e.data));
         }
-
     }
 }
 
