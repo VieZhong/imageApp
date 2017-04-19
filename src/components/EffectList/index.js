@@ -13,6 +13,7 @@ const EffectList = ({chooseEffect}) => {
             <li onClick={() => {chooseEffect('BLUE')}}>蓝光</li>
             <li onClick={() => {chooseEffect('BROWN')}}>泛黄</li>
             <li onClick={() => {chooseEffect('DARK')}}>暗调</li>
+            <li onClick={() => {chooseEffect('RELIEF')}}>浮雕</li>
         </ul>
     </div>);
 }
