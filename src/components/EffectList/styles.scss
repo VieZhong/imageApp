@@ -19,10 +19,10 @@ $darker-color: #553000;
         height: 60px;
         text-align: center;
         line-height: 60px;
-        color: $dark-color;
+        color: $lighter-color;
         border: 1px solid $base-color;
         border-radius: 6px;
-        background-color: $light-color;
+        background-color: $base-color;
         cursor: pointer;
         margin-right: 20px;
     }

@@ -1,6 +1,6 @@
 
 onmessage = function(e) {
-    console.log(e.data)
+    
     let {imgData, effect} = e.data;
     let imgDataArray = imgData.data || [];
     let numPixels = imgDataArray.length/4;
