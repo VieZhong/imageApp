@@ -1,14 +1,4 @@
-$white-color: #FFF5E8;
-$lighter-color: #FFDAAA;
-$light-color: #D4A66A;
-$base-color: #AA7939;
-$dark-color: #805115;
-$darker-color: #553000;
-
-*{
-    padding: 0;
-    margin: 0;
-}
+@import '../asserts/css/base.scss';
 
 .container {
     display: flex;

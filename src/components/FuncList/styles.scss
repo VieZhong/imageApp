@@ -1,10 +1,4 @@
-$white-color: #FFF5E8;
-$lightest-color: #FFE9CC;
-$lighter-color: #FFDAAA;
-$light-color: #D4A66A;
-$base-color: #AA7939;
-$dark-color: #805115;
-$darker-color: #553000;
+@import '../../asserts/css/base.scss';
 
 .item{
     border: 1px solid $lighter-color;
