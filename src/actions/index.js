@@ -8,6 +8,8 @@ function saveOriginImgData(data) {
     }
 }
 
+// let saveOriginImgData = createAction(reducerTpye.SAVE_ORIGIN_IMG_DATA, data => data);
+
 function handleEffect(effect) {
     return (dispatch, getState) => {
         let orginImgData = getState().get('orginImgData');
